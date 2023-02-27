@@ -1,0 +1,14 @@
+# 특정 파일 무시하기 위해선 그 파일 이름을 적어준다.
+secrets.yaml
+
+# 특정 모든 확장자 (.c) 파일 무시
+*.c
+
+# .c 확장자 중 무시하지 않을 파일
+!not_ignore_this.c
+
+# 폴더 내용물을 모두 무시할 수 있음
+logs/
+
+# logs 폴더 바로 안, 또는 그 안의 다른 폴더 안의 debug.log
+logs/**/debug.log
