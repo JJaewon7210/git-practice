@@ -2,7 +2,7 @@ team: Panthers
 
 manager: Sebastian
 
-coach: Shirley
+coach: Raymond
 
 members:
 - Violet
